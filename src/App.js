@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import SignUp from "./signup";
+import Login from "./login";
+import "./global.css";
 
-function App() {
+const App = () => {
+  const [currentForm, setCurrentForm] = useState("signup");
+
+  const handleFormSwitch = (formType) => {
+    setCurrentForm(formType);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+
+      <main className="App-main">
+        
+        {currentForm === "login" ? (
+          <Login onFormSwitch={handleFormSwitch} />
+        ) : (
+          <SignUp onFormSwitch={handleFormSwitch} />
+        )}
+      </main>
+
     </div>
   );
-}
+};
 
 export default App;
+
+
+
+// import React, { useState } from "react";
+// import SignUp from "./signup";
+// import Login from "./login";
+// import "./App.css";
+
+// const App = () => {
+//   return (
+//     <div className="App">
+      
+
+//       <main className="App-main">
+//         {/* Your main content goes here */}
+//         <SignUp onFormSwitch={yourFormSwitchFunction} />
+//       </main>
+
+      
+//     </div>
+//   );
+// };
+// export default App;
+

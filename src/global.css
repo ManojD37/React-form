@@ -8,10 +8,10 @@ body {
   --font-inter: Inter;
 
   /* font sizes */
+  --font-size-lg: 18px;
   --font-size-24xl: 43px;
   --font-size-base: 16px;
   --font-size-xl: 20px;
-  --font-size-lg: 18px;
   --font-size-sm: 14px;
   --font-size-10xl: 29px;
 
@@ -26,7 +26,7 @@ body {
   --color-mediumblue-200: #2520e3;
 
   /* border radiuses */
-  --br-3xs: 10px;
   --br-8xs: 5px;
+  --br-3xs: 10px;
   --br-xs: 12px;
 }

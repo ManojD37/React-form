@@ -1,0 +1,498 @@
+
+  
+
+
+
+
+
+
+.loginFormChild {
+    position: absolute;
+    top: 30px;
+    left: 22px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mediumblue-100);
+    width: 553px;
+    height: 802px;
+  }
+  .inblue,
+  .login {
+    position: absolute;
+    top: 66px;
+    left: 72px;
+    font-size: var(--font-size-10xl);
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 31px;
+  }
+  .login {
+    top: 61px;
+    left: 663px;
+    color: var(--color-gray-200);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .signup {
+    color: var(--color-mediumblue-200);
+  }
+  .createAnAccountContainer1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .createAnAccountContainer {
+    position: absolute;
+    top: 104px;
+    left: 663px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 297px;
+    height: 31px;
+    color: var(--color-gray-200);
+  }
+  .feedbackChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-mediumblue-200);
+    width: 410px;
+    height: 175px;
+  }
+  .freelancer,
+  .simpleUnbelievableIm {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    display: inline-block;
+    width: 373px;
+    height: 72px;
+  }
+  .freelancer {
+    top: 119px;
+    left: 115px;
+    width: 83px;
+    height: 23px;
+  }
+  .pexelsAndreaPiacquadio37850Icon {
+    position: absolute;
+    top: 91px;
+    left: 23px;
+    border-radius: var(--br-8xs);
+    width: 68px;
+    height: 66px;
+    object-fit: cover;
+  }
+  .samKumar {
+    position: absolute;
+    top: 95px;
+    left: 115px;
+    font-size: var(--font-size-base);
+    display: inline-block;
+    color: var(--color-white);
+    width: 97px;
+    height: 24px;
+  }
+  .dotsIcon,
+  .feedback {
+    position: absolute;
+    top: 193px;
+    left: 189px;
+    width: 33px;
+    height: 5px;
+  }
+  .feedback {
+    top: 604px;
+    left: 72px;
+    width: 410px;
+    height: 198px;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+  }
+  .leaderName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 625.69px;
+    height: 31px;
+  }
+  .nameEmail,
+  .nameEmailChild {
+    position: absolute;
+    width: 691px;
+  }
+  .nameEmailChild {
+    top: 38px;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-mediumblue-200);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .nameEmail {
+    top: 203px;
+    left: 663px;
+    height: 97px;
+    color: var(--color-gray-400);
+  }
+  .forgotPassword,
+  .password1 {
+    position: absolute;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 297px;
+    height: 31px;
+  }
+  .forgotPassword {
+    top: 530px;
+    left: 663px;
+    color: var(--color-mediumblue-200);
+  }
+  .password1 {
+    top: 0;
+    left: 0;
+  }
+  .passwordChild {
+    top: 36px;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-gray-500);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .loginBottonChild,
+  .password,
+  .passwordChild {
+    position: absolute;
+    width: 691px;
+  }
+  .password {
+    top: 324px;
+    left: 663px;
+    height: 95px;
+    color: var(--color-gray-400);
+  }
+  .loginBottonChild {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mediumblue-100);
+    border: 1px solid var(--color-gray-500);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .login1 {
+    position: absolute;
+    top: 14px;
+    left: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 179px;
+    height: 31px;
+  }
+  .loginBotton {
+    position: absolute;
+    top: 466px;
+    left: 663px;
+    width: 691px;
+    height: 59px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-100);
+  }
+  .letsCreateWorlds {
+    position: absolute;
+    top: 157px;
+    left: 2.32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 314.91px;
+    height: 47px;
+  }
+  .welcomeBackTo {
+    margin: 0;
+  }
+  .welcomeBackToContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-24xl);
+    display: flex;
+    align-items: center;
+    width: 477px;
+    height: 121px;
+  }
+  .headlines {
+    position: absolute;
+    top: 203px;
+    left: 72px;
+    width: 477px;
+    height: 204px;
+    font-size: var(--font-size-base);
+  }
+  .loginForm {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 863px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+
+
+
+/* 2 */
+
+
+/* .loginFormChild {
+    position: absolute;
+    top: 30px;
+    left: 22px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mediumblue-100);
+    width: 553px;
+    height: 802px;
+  }
+  .inblue,
+  .login {
+    position: absolute;
+    top: 400px;
+    left: 72px;
+    font-size: var(--font-size-10xl);
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 31px;
+  }
+  .login {
+    top: 61px;
+    left: 663px;
+    color: var(--color-gray-200);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .signup {
+    color: var(--color-mediumblue-200);
+  }
+  .createAnAccountContainer1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .createAnAccountContainer {
+    position: absolute;
+    top: 104px;
+    left: 663px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 297px;
+    height: 31px;
+    color: var(--color-gray-200);
+  }
+  .feedbackChild {
+    position: relative;
+    top: 900;
+    left: 600;
+    border-radius: var(--br-xs);
+    background-color: var(--color-mediumblue-200);
+    width: 410px;
+    height: 175px;
+  }
+  .freelancer,
+  .simpleUnbelievableIm {
+    position: absolute;
+    top: 600px;
+    left: 73px;
+    display: inline-block;
+    width: 373px;
+    height: 72px;
+  }
+  .freelancer {
+    top: 719px;
+    left: 115px;
+    width: 83px;
+    height: 23px;
+  }
+  .pexelsAndreaPiacquadio37850Icon {
+    position: absolute;
+    top: 700px;
+    left: 23px;
+    border-radius: var(--br-8xs);
+    width: 68px;
+    height: 66px;
+    object-fit: cover;
+  }
+  .samKumar {
+    position: absolute;
+    top: 785px;
+    left: 115px;
+    font-size: var(--font-size-base);
+    display: inline-block;
+    color: var(--color-white);
+    width: 97px;
+    height: 24px;
+  }
+  .dotsIcon,
+  .feedback {
+    position: absolute;
+    top: 193px;
+    left: 189px;
+    width: 33px;
+    height: 5px;
+  }
+  .feedback {
+    top: 604px;
+    left: 72px;
+    width: 410px;
+    height: 198px;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+  }
+  .leaderName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 625.69px;
+    height: 31px;
+  }
+  .nameEmail,
+  .nameEmailChild {
+    position: absolute;
+    width: 691px;
+  }
+  .nameEmailChild {
+    top: 38px;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-mediumblue-200);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .nameEmail {
+    top: 203px;
+    left: 663px;
+    height: 97px;
+    color: var(--color-gray-400);
+  }
+  .forgotPassword,
+  .password1 {
+    position: absolute;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 297px;
+    height: 31px;
+  }
+  .forgotPassword {
+    top: 530px;
+    left: 663px;
+    color: var(--color-mediumblue-200);
+  }
+  .password1 {
+    top: 0;
+    left: 0;
+  }
+  .passwordChild {
+    top: 36px;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-gray-500);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .loginBottonChild,
+  .password,
+  .passwordChild {
+    position: absolute;
+    width: 691px;
+  }
+  .password {
+    top: 324px;
+    left: 663px;
+    height: 95px;
+    color: var(--color-gray-400);
+  }
+  .loginBottonChild {
+    top: 900;
+    left: 1000;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mediumblue-100);
+    border: 1px solid var(--color-gray-500);
+    box-sizing: border-box;
+    height: 59px;
+  }
+  .login1 {
+    position: absolute;
+    top: 14px;
+    left: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 179px;
+    height: 31px;
+  }
+  .loginBotton {
+    position: absolute;
+    top: 466px;
+    left: 663px;
+    width: 691px;
+    height: 59px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-100);
+  }
+  .letsCreateWorlds {
+    position: absolute;
+    top: 157px;
+    left: 2.32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 314.91px;
+    height: 47px;
+  }
+  .welcomeBackTo {
+    margin: 0;
+  }
+  .welcomeBackToContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-24xl);
+    display: flex;
+    align-items: center;
+    width: 477px;
+    height: 121px;
+  }
+  .headlines {
+    position: absolute;
+    top: 203px;
+    left: 72px;
+    width: 477px;
+    height: 204px;
+    font-size: var(--font-size-base);
+  }
+  .loginForm {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 863px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  } */
