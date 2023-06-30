@@ -33,15 +33,14 @@ const Login = () => {
       alert(`login error: ${error.message}`);
     });
 
-
-  
     setLeaderName("");
     setPassword("");
   };
 
   return (
+    
     <div className="loginForm">
-      <div className="loginFormChild" />
+      <div className="loginFormChild" ></div>
       <b className="inblue">Inblue</b>
       <b className="login">Login</b>
       <div className="createAnAccountContainer">
@@ -76,10 +75,11 @@ const Login = () => {
       </div>
 
       <div className="loginBottonChild">
+      <div className="loginBottonChild1"/>
         <div className="login1" />
         <button type="submit" className="loginBotton" id="saveButton" onClick={handleSubmit}>
-  Login
-</button>
+          Login
+        </button>
       </div>
 
       <div className="password">
@@ -94,15 +94,20 @@ const Login = () => {
       <div className="headlines">
         <div className="welcomeBackToContainer" />
       </div>
-      <div className="welcomeBackTo">{`Let’s create the world’s best community of leaders and support climate change with simple steps.`}</div>
+      <div className="welcomeBackTo"><p>
+        Let’s create the world’s best community of leaders and support climate change with simple steps.</p></div>
       <b className="letsCreateWorlds">
         <span className="have-an-account-container1">
-          <p className="start-your">{`Start your`}</p>
-          <p className="start-your">{`Leadership journey`}</p>
-          <p className="start-your">with us.</p>
+          {/* <p className="start-your1">{`Start your`}</p>
+          <p className="start-your2">{`Leadership journey`}</p> */}
+          <div classname="messgae">
+          <p className="start-your1">Welcome back to </p>
+          <p className="start-your2">Leadership journey</p>
+          <p className="start-your3">with us</p>
+          </div>
         </span>
       </b>
-      <b className="b">👋</b>
+      {/* <b className="bye">👋</b> */}
     </div>
   );
 };

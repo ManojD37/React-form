@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import SignUp from "./signup";
 import Login from "./login";
+import SignUp from "./signup";
+
 import "./global.css";
 
 const App = () => {
